@@ -1,0 +1,96 @@
+
+/*GLOBALES============*/
+
+body {
+    font-family:'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: ivory;
+}
+
+
+
+/*=================== NAVBAR ==================== */
+
+#menu a {
+    font-size: 18px;
+    font-weight:300;
+    
+}
+
+#menu {
+    background-color:wheat;
+    
+}
+
+.logo {
+    display: flex;
+    height: 90px;
+    margin-right: 90px;
+}
+
+
+
+/*================================= MODICICACIONES DE LOS PRODUCTOS ===================================*/
+
+.titulo-cafeteria {
+    color:black;
+    text-decoration: none;
+}
+
+.titulo-cafeteria:hover {
+    color: black;
+}
+
+.card {
+    border-radius: 25px;
+    background-color:peachpuff;
+}
+
+.imagen { 
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    
+}
+
+.titulo-card{
+    padding: 2%;
+}
+
+.dropdown-menu{
+    background-color:wheat;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+/*==========================  SECCION DE PRODUCTO  ================================*/
+
+
+
+
+
+
+
+
+
+/*==========================  TAMAÑOS DE PANTALLA  ================================*/
+/*==========================  PANTALLA ANCHA  ================================*/
+@media (max-whidt:768px) {
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align:center ;
+    }
+}
+
+/*==========================  PANTALLA SM  ================================*/
+
+
+/*==========================  PANTALLA EXTRA SM   ================================*/
+
+
